@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  background-size: cover;
+  background-position: center;
+}
+
+header{
+  position: relative;
+  top: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo{
+  position: relative;
+  color: #000;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+header .navigation a{
+  color: #000;
+  background: none;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 2px 15px;
+  border-radius: 20px;
+  transition:0.3s; 
+  transition-property: background; /* dito ka natapos.. aayusin pa to di nagana hover tamo.*/
+}
+
+header .navigation a:not(:last-child){
+  margin-right: 30px;
+}
+
+header .navigation a:hover{
+  background: #fff;
+  
+}
+
+.heading-text {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 5rem;
+  color: var(--primary-color);
+  text-shadow: 0 0.1rem 0.2rem
+  var(--primary-color);
+}
+.yt-container {
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.para {
+  
+}
+  
+.para .paragraph {
+  color: black;
+font-size: 20px;
+line-height: 1.5em;
+background-color: mintcream;
+background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+opacity: 50%;
+box-shadow: 1px 1px 10px 10px lightgrey;
+padding: 30px;
+border-radius: 5px;
+border-width: 2px;
+border-style: none;
+margin: 60px;
+  }
+.images{
+  heght: 40%;
+  width: 60%;
+  align-items: center;
+  padding: 0;
+  margin: auto ;
+}
+
+.info {
+  color: black;
+  font-size: 20px;
+  line-height: 1.5em;
+  background-color: mintcream; 
+  opacity: 50%;
+  padding: 30px;
+  border-radius: 30px;
+  border-width: 2px ;
+  border-style:none;
+  margin: 70px;
+  margin-top: 5px;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+  
+}
+.info h2{
+  background: none;
+}
+
+
+/* POSTCARD CSS*/
+
+h2{
+  text-align: center;
+  font-style: monospace;
+  color: #000;
+}
+
+.card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.card{
+  width: 325px;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+  margin:20px;
+}
+.card img{
+  width: 100%;
+  height: auto;
+}
+.card-content{
+  padding:25px;
+  flex: 1;
+}
+.card-content h3{
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.title {
+  color: black;
+  font-size: 20px;
+  line-height: 1.5em;
+  background-color: mintcream;
+  opacity: 50%;
+  box-shadow: 1px 1px 10px 10px lightgrey;
+  padding: 30px;
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: none;
+  margin: 60px;
+}
